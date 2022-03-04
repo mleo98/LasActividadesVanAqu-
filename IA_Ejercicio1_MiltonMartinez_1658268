@@ -1,0 +1,14 @@
+#A2 Ejercicios basicos de Python
+#Rodriguez Martinez Milton Leonardo 165828 N1-N1- JUEVES
+#Escribe un programa que le pida al usuario por sus nombres y que lo salude
+#con su nombre, Excepeto "ANA" ,  "JUAN" y "PEDRO"
+
+a= "Ana"
+j= "Juan"
+p= "Pedro"
+Nombre = input ("¿Cúal es tu nombre?:")
+if a== Nombre or j== Nombre or p== Nombre:
+  print ("ERROR")
+
+else:
+    print ("Mucho gusto " + Nombre + " Bienvenido!")
