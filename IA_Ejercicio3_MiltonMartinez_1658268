@@ -1,0 +1,9 @@
+#A2 Ejercicios basicos de Python
+#Rodriguez Martinez Milton Leonardo 165828 N1-N1- JUEVES
+#Escribe una funcion que toma una lista de strings y los imprima linea por linea 
+#en un marco rectangular. Por ejem. la lista ["hola", "a", "todos", "esto", "es"
+#"un", "marco"] se imprime:
+
+marco = [ "********", "* hola *","*  me  *", "*llamo*", "* Leo *", "*  y  *", "* este *", "*  es  *","*  mi  *", "* marco *", "********"]
+for x in marco:
+  print(x)
