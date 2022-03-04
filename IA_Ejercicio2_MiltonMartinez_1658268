@@ -1,0 +1,12 @@
+#A2 Ejercicios basicos de Python
+#Rodriguez Martinez Milton Leonardo 165828 N1-N1- JUEVES
+#Escribe una funcion que regrese el ultimo elemento de una lista y que revierta el orden
+#de la lista e imprima la lista revertida 
+
+for item in reversed(lista):
+  print(item)
+lista = [1,2,3,4,5]
+n = len(lista)
+for i in len (lista):
+  print(lista[n])
+  n = n - 1
